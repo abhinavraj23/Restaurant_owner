@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RestOwner</string>
+    <string name="owner_name">NAME</string>
+
+    <string name="password">PASSWORD</string>
+    <string name="proceed">PROCEED</string>
+    <string name="rest_1">pramukh</string>
+    <string name="rest_2">mataranidhaba</string>
+    <string name="rest_3">jaymataranikhanakhajana</string>
+    <string name="rest_4">shrinivas</string>
+    <string name="rest_5">mataraniunlimited</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="roti">ROTI</string>
+    <string name="rice">RICE</string>
+    <string name="dal">DAL</string>
+    <string name="butter_milk">BUTTER MILK</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

@@ -1,0 +1,169 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif"
+            android:text="@string/roti"
+            android:textSize="18sp" />
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif"
+            android:text="@string/rice"
+            android:textSize="18sp" />
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif"
+            android:text="@string/dal"
+            android:textSize="18sp" />
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif"
+            android:text="@string/butter_milk"
+            android:textSize="18sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes" />
+
+    <RadioButton
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no" />
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:id="@+id/linear_layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif"
+            android:text="SABJI"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/sabji1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="SABJI 1" />
+
+        <EditText
+            android:id="@+id/sabji2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="SABJI 2" />
+
+        <EditText
+            android:id="@+id/sabji3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="SABJI 3" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="79dp"
+        android:text="@string/submit" />
+
+</LinearLayout>
+</ScrollView>
+
+
